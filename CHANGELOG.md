@@ -16,6 +16,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Minimum supported Wagtail is now 7.0.
 
+### Fixed
+
+- `Translation.save_target()` no longer raises an `IntegrityError` on the `(translation_key, locale_id)` unique constraint when translating a snippet whose cluster contains nested `TranslatableMixin` grandchildren. Wagtail's `copy_for_translation` only re-locales the top level of the returned cluster, so the fixup is applied here as well.
+
 ### Removed
 
 - Support for Wagtail 6.3 (reached end of life on 2026-05-01).
