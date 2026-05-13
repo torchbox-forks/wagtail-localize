@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Wagtail 7.1, 7.3 and 7.4 (LTS) to the test matrix.
+- Django 5.1 to the test matrix.
+
+### Changed
+
+- Minimum supported Wagtail is now 7.0.
+
+### Removed
+
+- Support for Wagtail 6.3 (reached end of life on 2026-05-01).
+- Stale `WAGTAIL_VERSION` and `DJANGO_VERSION` compatibility guards for versions outside the supported range.
+
 ## [1.13] - 2025-01-25
 
 ### Changed
