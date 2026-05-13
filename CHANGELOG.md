@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Minimum supported Wagtail is now 7.0.
+- Minimum supported Django is now 5.1.
 
 ### Fixed
 
@@ -23,6 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Removed
 
 - Support for Wagtail 6.3 (reached end of life on 2026-05-01).
+- Support for Django 4.2 (reached end of life in April 2026).
 - Stale `WAGTAIL_VERSION` and `DJANGO_VERSION` compatibility guards for versions outside the supported range.
 
 ## [1.13] - 2025-01-25
