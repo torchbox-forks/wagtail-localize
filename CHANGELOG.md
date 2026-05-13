@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Wagtail 7.1, 7.3 and 7.4 (LTS) to the test matrix.
+- Wagtail 7.3 and 7.4 (LTS) to the test matrix.
 - Django 5.1 to the test matrix.
 
 ### Changed
